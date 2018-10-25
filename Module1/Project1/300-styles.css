@@ -1,0 +1,29 @@
+#movie-title{
+    color: red;
+}
+
+#date{
+    color: lightgray;
+    font-size: 13px;
+}
+
+#T{
+    position: absolute;
+    top: 50%;
+    left:9%;
+    transform: translate()
+}
+
+.pic1{
+    float: left;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.pic2{
+    float: right;
+}
+
+.par2{
+    flex-wrap-: wrap;
+}

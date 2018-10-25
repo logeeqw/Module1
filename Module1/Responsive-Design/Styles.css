@@ -23,24 +23,15 @@
 }
 
 .header {
-    height: auto;
-    justify-content: inherit;
-    align-items: inherit;
-}
-
-.photo img {
-    width: 100%;
-    display: block;
+    background-color: #B2D6FF;
 }
 
 .content {
-    order: 2;
     background-color: #EAEDF0;
     height: 600px;
 }
 
 .sign-up {
-    order: 1;
     background-color: #D6E9FE;
 }
 
@@ -65,12 +56,6 @@
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-    .sign-up,
-    .feature-1,
-    .feature-2,
-    .feature-3 {
-        width: 50%;
-    }
     body {
         background-color: #F5CF8E; /* Yellow */
     }
@@ -78,21 +63,13 @@
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-    .page {
-        width: 960px;
-        margin: 0 auto;
-    }
+    .sign-up,
     .feature-1,
     .feature-2,
     .feature-3 {
-        width: 33.3%;
+        width: 50%;
     }
-    .header {
-        height: 400px;
+        body {
+        background-color: #B2D6FF; /* Blue */
     }
-}
-
-.illustration img{
-    width: 100%;
-    display: block;
 }
