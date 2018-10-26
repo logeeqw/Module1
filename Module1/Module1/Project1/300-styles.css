@@ -1,8 +1,65 @@
+
+
 #movie-title{
     color: red;
 }
 
 #date{
-    color: lightgray;
+    color: #a4a4a4;
     font-size: 13px;
+}
+
+#T{
+    position: absolute;
+    top: 9%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+}
+
+.pic1{
+    float: left;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    border: maroon 1px solid;
+    overflow: hidden;
+}
+
+.pic2{
+    float: right;
+}
+
+.par2{
+    flex-wrap-: wrap;
+}
+
+.outer-container {
+    border: lightgray 1px solid;
+    width: 100%;
+    background-color: maroon;
+    background-image: linear-gradient(maroon, black);
+}
+.pic3{
+    float: left;
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    border: black 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white ;
+}
+
+.content{
+    padding: 2%;
+}
+
+.pic4{
+    width: 100%;
 }
