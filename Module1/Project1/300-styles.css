@@ -1,4 +1,5 @@
 
+
 #movie-title{
     color: red;
 }
@@ -22,11 +23,16 @@
     position: relative;
     text-align: center;
     padding-top: 10px;
+    border: maroon 1px solid;
     overflow: hidden;
 }
 
 .pic2{
     float: right;
+}
+
+.par2{
+    flex-wrap-: wrap;
 }
 
 .outer-container {
@@ -54,71 +60,6 @@
     padding: 2%;
 }
 
-.quote{
-    margin-left: 6%;
-    margin-right: 6%;
-}
-
-.PS{
-    font-size: 12px;
-}
-
-.cliffpic{
-    height: 230px;
-    width: 1630px;
-}
-
-/*extra small*/
-@media only screen and (max-width: 400px){
-    .cliffpic{
-        height: 0px;
-        width: 0px;
-    }
-}
-
-/*small*/
-@media only screen and (min-width: 401px) and (max-width:480px){
-    .cliffpic{
-        height: 100px;
-        width: 380px;
-    }
-}
-
-/*low medium*/
-@media only screen and (min-width: 481px) and (max-width:720px) {
-    .cliffpic{
-        height:150px ;
-        width:450px ;
-    }
-}
-
-/*medium*/
-@media only screen and (min-width: 721px) and (max-width:870px) {
-    .cliffpic{
-        height:150px;
-        width:700px;
-    }
-}
-/*big*/
-@media only screen and (min-width: 871px) and (max-width:1050px) {
-    .cliffpic{
-        height:185px ;
-        width:800px ;
-    }
-}
-
-
-@media only screen and (max-width:480px) {
-    .pic3{
-        height:211px ;
-        width:300px ;
-    }
-}
-
-@media only screen and (max-width:600px) {
-    .pic2{
-        float: right;
-        height: 150px;
-        width:300px ;
-    }
+.pic4{
+    width: 100%;
 }
