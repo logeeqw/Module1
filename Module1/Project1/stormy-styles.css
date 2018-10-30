@@ -1,0 +1,93 @@
+
+.back-pic {
+    position: absolute;
+    height:99% ;
+    width:99% ;
+    overflow: hidden;
+}
+
+.header {
+    position: absolute;
+    float: left;
+    /*background-color: white;*/
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 98%;
+    color: white;
+    z-index: 3;
+    padding-left: 1%;
+    opacity: unset;
+    font-size: 30px;
+}
+
+.icons{
+    position: absolute;
+    float: right;
+    z-index: 50;
+    margin-right: 1%;
+    margin-top: 3%;
+    margin-left: 90%;
+    color: white;
+    text-align: right;
+}
+
+.lyrics{
+    position: absolute;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 400px;
+    margin-left: 3%;
+    width: 290px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border: white 1px double;
+    padding-top: 12px;
+    padding-bottom: 40px;
+    z-index: 3;
+}
+
+/*.i1{*/
+    /*position: absolute;*/
+    /*z-index: 55;*/
+    /*float: right;*/
+    /*height: 40px;*/
+    /*width: 40px;*/
+/*}*/
+
+/*.i2{*/
+    /*position: absolute;*/
+    /*z-index: 55;*/
+    /*float: right;*/
+    /*height: 40px;*/
+    /*width: 40px;*/
+/*}*/
+
+/*.i3{*/
+    /*position: absolute;*/
+    /*z-index: 55;*/
+    /*float: right;*/
+    /*height: 40px;*/
+    /*width: 40px;*/
+/*}*/
+
+@media only screen and (max-width: 500px){
+    /*.back-pic{*/
+        /*position: absolute;*/
+        /*height:100% ;*/
+        /*width:386px;}*/
+
+    .lyrics{
+        margin-top: 75%;
+    }
+}
+
+@media only screen and (max-width: 1020px) and (min-width: 501px){
+    /*.back-pic{*/
+        /*position: absolute;*/
+        /*height:100% ;*/
+        /*width:800px;}*/
+
+    .lyrics{
+    margin-top: 60%;
+    }
+}

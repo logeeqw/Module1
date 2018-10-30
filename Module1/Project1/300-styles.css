@@ -1,22 +1,27 @@
+
 #movie-title{
     color: red;
 }
 
 #date{
-    color: lightgray;
+    color: #a4a4a4;
     font-size: 13px;
 }
 
 #T{
     position: absolute;
-    top: 50%;
-    left:9%;
-    transform: translate()
+    top: 9%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
 }
 
 .pic1{
     float: left;
-    z-index: -1;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
     overflow: hidden;
 }
 
@@ -24,6 +29,96 @@
     float: right;
 }
 
-.par2{
-    flex-wrap-: wrap;
+.outer-container {
+    border: lightgray 1px solid;
+    width: 100%;
+    background-color: maroon;
+    background-image: linear-gradient(maroon, black);
+}
+.pic3{
+    float: left;
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    border: black 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white ;
+}
+
+.content{
+    padding: 2%;
+}
+
+.quote{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.PS{
+    font-size: 12px;
+}
+
+.cliffpic{
+    height: 230px;
+    width: 1630px;
+}
+
+/*extra small*/
+@media only screen and (max-width: 400px){
+    .cliffpic{
+        height: 0px;
+        width: 0px;
+    }
+}
+
+/*small*/
+@media only screen and (min-width: 401px) and (max-width:480px){
+    .cliffpic{
+        height: 100px;
+        width: 380px;
+    }
+}
+
+/*low medium*/
+@media only screen and (min-width: 481px) and (max-width:720px) {
+    .cliffpic{
+        height:150px ;
+        width:450px ;
+    }
+}
+
+/*medium*/
+@media only screen and (min-width: 721px) and (max-width:870px) {
+    .cliffpic{
+        height:150px;
+        width:700px;
+    }
+}
+/*big*/
+@media only screen and (min-width: 871px) and (max-width:1050px) {
+    .cliffpic{
+        height:185px ;
+        width:800px ;
+    }
+}
+
+
+@media only screen and (max-width:480px) {
+    .pic3{
+        height:211px ;
+        width:300px ;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .pic2{
+        float: right;
+        height: 150px;
+        width:300px ;
+    }
 }
