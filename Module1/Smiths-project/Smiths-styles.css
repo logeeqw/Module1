@@ -44,3 +44,23 @@ table {
 }
 /*end of reset*/
 
+h1{
+    font-size: 50px;
+}
+
+.and{
+    color: red;
+}
+
+.header{
+    text-align: center;
+}
+
+p{
+    font-size: 17px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
