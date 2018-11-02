@@ -64,3 +64,13 @@ h2{
     font-size: 30px;
     font-weight: bold;
 }
+
+.content{
+    float: left;
+    margin-left: 235px;
+    margin-right: 235px;
+}
+
+.fight-pic{
+    width: 100%;
+}
